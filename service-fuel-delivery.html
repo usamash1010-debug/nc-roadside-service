@@ -167,10 +167,16 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
+  "@id":"https://www.ncroadsideservice.com/service-fuel-delivery.html#service",
   "name":"Fuel Delivery",
-  "serviceType":"Fuel Delivery — Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","areaServed":"Charlotte Metro, NC"},
-  "areaServed":"Charlotte Metro, NC"
+  "serviceType":"Emergency Fuel Delivery — Gas & Diesel",
+  "description":"Out of gas in Charlotte or the metro? We deliver gasoline or diesel fuel directly to your location — enough to reach the nearest station. Available 24/7, no long roadside walk required.",
+  "url":"https://www.ncroadsideservice.com/service-fuel-delivery.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.ncroadsideservice.com/contact.html","servicePhone":"+1-704-594-5353","availableLanguage":"English"},
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "offers":{"@type":"Offer","description":"Free quote before service. No hidden fees.","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","description":"Call for free quote"},"availability":"https://schema.org/InStock"}
 }
 </script>
 <script type="application/ld+json">
@@ -193,6 +199,20 @@
     {"@type":"Question","name":"Do you deliver diesel too?","acceptedAnswer":{"@type":"Answer","text":"Yes. Let us know when you call whether you need gas or diesel and we'll bring the right fuel for your vehicle."}},
     {"@type":"Question","name":"My car still won't start after fuel — now what?","acceptedAnswer":{"@type":"Answer","text":"Our tech is already on-site, so we'll help diagnose it. Sometimes it's the battery or starter rather than the tank, and we can address that too or advise on next steps."}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/service-fuel-delivery.html#webpage",
+  "url":"https://www.ncroadsideservice.com/service-fuel-delivery.html",
+  "name":"Fuel Delivery | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"Out of gas in Charlotte or the metro? We deliver gasoline or diesel fuel directly to your location — enough to reach the nearest station. Available 24/7, no long roadside walk required.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"},{"@type":"ListItem","position":3,"name":"Fuel Delivery","item":"https://www.ncroadsideservice.com/service-fuel-delivery.html"}]}
 }
 </script>
 </body>

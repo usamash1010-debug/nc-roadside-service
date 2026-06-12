@@ -167,10 +167,16 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
-  "name":"Mobile Mechanic",
-  "serviceType":"Mobile Mechanic — Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","areaServed":"Charlotte Metro, NC"},
-  "areaServed":"Charlotte Metro, NC"
+  "@id":"https://www.ncroadsideservice.com/service-mobile-mechanic.html#service",
+  "name":"Mobile Mechanic & Diagnostics",
+  "serviceType":"On-Site Mobile Mechanic and Vehicle Diagnostics",
+  "description":"Sometimes a tow is overkill. Our mobile mechanics run on-site diagnostics and handle minor repairs at your location across Charlotte, NC — saving you time and tow-truck costs.",
+  "url":"https://www.ncroadsideservice.com/service-mobile-mechanic.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.ncroadsideservice.com/contact.html","servicePhone":"+1-704-594-5353","availableLanguage":"English"},
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "offers":{"@type":"Offer","description":"Free quote before service. No hidden fees.","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","description":"Call for free quote"},"availability":"https://schema.org/InStock"}
 }
 </script>
 <script type="application/ld+json">
@@ -193,6 +199,20 @@
     {"@type":"Question","name":"How is this different from a tow?","acceptedAnswer":{"@type":"Answer","text":"A tow just moves your vehicle. Our mobile mechanic tries to actually fix the issue on the spot, which can save you the cost and hassle of a tow and a shop visit."}},
     {"@type":"Question","name":"Can you tell me if it's worth fixing roadside or towing?","acceptedAnswer":{"@type":"Answer","text":"Yes — that honest assessment is the whole point. We diagnose first, then recommend the option that actually makes sense for your situation."}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/service-mobile-mechanic.html#webpage",
+  "url":"https://www.ncroadsideservice.com/service-mobile-mechanic.html",
+  "name":"Mobile Mechanic & Diagnostics | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"Sometimes a tow is overkill. Our mobile mechanics run on-site diagnostics and handle minor repairs at your location across Charlotte, NC — saving you time and tow-truck costs.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"},{"@type":"ListItem","position":3,"name":"Mobile Mechanic & Diagnostics","item":"https://www.ncroadsideservice.com/service-mobile-mechanic.html"}]}
 }
 </script>
 </body>

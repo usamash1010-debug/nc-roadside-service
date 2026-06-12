@@ -167,10 +167,16 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
+  "@id":"https://www.ncroadsideservice.com/service-tire-repair.html#service",
   "name":"Mobile Tire Repair",
-  "serviceType":"Mobile Tire Repair — Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","areaServed":"Charlotte Metro, NC"},
-  "areaServed":"Charlotte Metro, NC"
+  "serviceType":"Mobile Tire Plug, Patch & Replacement Service",
+  "description":"Don't limp to a shop on a spare. We plug, patch, or replace tires at your home, workplace, or roadside location across the Charlotte metro. Available 24/7 — no shop visit required.",
+  "url":"https://www.ncroadsideservice.com/service-tire-repair.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.ncroadsideservice.com/contact.html","servicePhone":"+1-704-594-5353","availableLanguage":"English"},
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "offers":{"@type":"Offer","description":"Free quote before service. No hidden fees.","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","description":"Call for free quote"},"availability":"https://schema.org/InStock"}
 }
 </script>
 <script type="application/ld+json">
@@ -193,6 +199,20 @@
     {"@type":"Question","name":"Do you carry replacement tires with you?","acceptedAnswer":{"@type":"Answer","text":"We source the right replacement for your vehicle. Give us your tire size (on the sidewall) when you call so we can come prepared."}},
     {"@type":"Question","name":"Is a mobile repair as good as a shop repair?","acceptedAnswer":{"@type":"Answer","text":"For repairable tread punctures, yes — we use proper plug/patch methods. The difference is we do it at your location instead of you waiting at a shop."}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/service-tire-repair.html#webpage",
+  "url":"https://www.ncroadsideservice.com/service-tire-repair.html",
+  "name":"Mobile Tire Repair | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"Don't limp to a shop on a spare. We plug, patch, or replace tires at your home, workplace, or roadside location across the Charlotte metro. Available 24/7 — no shop visit required.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"},{"@type":"ListItem","position":3,"name":"Mobile Tire Repair","item":"https://www.ncroadsideservice.com/service-tire-repair.html"}]}
 }
 </script>
 </body>

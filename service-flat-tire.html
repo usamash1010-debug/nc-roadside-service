@@ -167,10 +167,16 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
+  "@id":"https://www.ncroadsideservice.com/service-flat-tire.html#service",
   "name":"Flat Tire Change",
-  "serviceType":"Flat Tire Change — Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","areaServed":"Charlotte Metro, NC"},
-  "areaServed":"Charlotte Metro, NC"
+  "serviceType":"Emergency Flat Tire Change — Roadside Assistance",
+  "description":"24/7 mobile flat tire change service in Charlotte, NC. Spare tire mounted and torqued to manufacturer specification at your exact location. Pressure checked all around before you leave.",
+  "url":"https://www.ncroadsideservice.com/service-flat-tire.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.ncroadsideservice.com/contact.html","servicePhone":"+1-704-594-5353","availableLanguage":"English"},
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "offers":{"@type":"Offer","description":"Free quote before service. No hidden fees.","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","description":"Call for free quote"},"availability":"https://schema.org/InStock"}
 }
 </script>
 <script type="application/ld+json">
@@ -193,6 +199,20 @@
     {"@type":"Question","name":"Can you change a tire on the interstate?","acceptedAnswer":{"@type":"Answer","text":"Yes, and we do it safely with the proper setup. Stay buckled inside your vehicle, well off the travel lanes, and let us handle the roadside work when we arrive."}},
     {"@type":"Question","name":"Will you torque the wheel properly?","acceptedAnswer":{"@type":"Answer","text":"Always. We torque lug nuts to manufacturer spec rather than just snugging them by hand, which is critical for safety at speed."}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/service-flat-tire.html#webpage",
+  "url":"https://www.ncroadsideservice.com/service-flat-tire.html",
+  "name":"Flat Tire Change | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"24/7 mobile flat tire change service in Charlotte, NC. Spare tire mounted and torqued to manufacturer specification at your exact location. Pressure checked all around before you leave.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"},{"@type":"ListItem","position":3,"name":"Flat Tire Change","item":"https://www.ncroadsideservice.com/service-flat-tire.html"}]}
 }
 </script>
 </body>

@@ -197,19 +197,42 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
-  "serviceType":"Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353"},
-  "areaServed":"Charlotte Metro, NC",
-  "hasOfferCatalog":{"@type":"OfferCatalog","name":"Roadside Services","itemListElement":[
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Jump Starts & Battery"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Flat Tire Change"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fuel Delivery"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lockout Service"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Winch-Out & Recovery"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Tire Repair"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Mechanic"}},
-    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fleet & Commercial Roadside"}}
-  ]}
+  "@id":"https://www.ncroadsideservice.com/services.html#service",
+  "name":"24/7 Roadside Assistance Services",
+  "serviceType":"Emergency Roadside Assistance",
+  "description":"Complete 24/7 emergency roadside assistance across the Charlotte, NC metro: jump starts, battery replacement, flat tire change, fuel delivery, lockout service, winch-out recovery, mobile tire repair, mobile mechanic, and fleet service.",
+  "url":"https://www.ncroadsideservice.com/services.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Emergency Roadside Services",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Jump Starts & Battery","url":"https://www.ncroadsideservice.com/service-jump-start.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Flat Tire Change","url":"https://www.ncroadsideservice.com/service-flat-tire.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fuel Delivery","url":"https://www.ncroadsideservice.com/service-fuel-delivery.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lockout Service","url":"https://www.ncroadsideservice.com/service-lockout.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Winch-Out & Recovery","url":"https://www.ncroadsideservice.com/service-winch-out.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Tire Repair","url":"https://www.ncroadsideservice.com/service-tire-repair.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mobile Mechanic","url":"https://www.ncroadsideservice.com/service-mobile-mechanic.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fleet & Commercial","url":"https://www.ncroadsideservice.com/service-fleet.html"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/services.html#webpage",
+  "url":"https://www.ncroadsideservice.com/services.html",
+  "name":"Roadside Services | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"Full-service 24/7 mobile roadside assistance in Charlotte, NC: jump starts, flat tires, lockouts, fuel, winch-out, tire repair, mobile mechanic and fleet service.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"}]}
 }
 </script>
 </body>

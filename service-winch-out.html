@@ -167,10 +167,16 @@
 {
   "@context":"https://schema.org",
   "@type":"Service",
-  "name":"Winch-Out & Recovery",
-  "serviceType":"Winch-Out & Recovery — Roadside Assistance",
-  "provider":{"@type":"AutomotiveBusiness","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","areaServed":"Charlotte Metro, NC"},
-  "areaServed":"Charlotte Metro, NC"
+  "@id":"https://www.ncroadsideservice.com/service-winch-out.html#service",
+  "name":"Winch-Out & Vehicle Recovery",
+  "serviceType":"Emergency Winch-Out and Vehicle Recovery",
+  "description":"Stuck in a ditch, mud, or snow in the Charlotte area? Our recovery units use proper rigging techniques to pull light and medium-duty vehicles back onto solid ground without further damage.",
+  "url":"https://www.ncroadsideservice.com/service-winch-out.html",
+  "provider":{"@type":"AutomotiveBusiness","@id":"https://www.ncroadsideservice.com/#business","name":"NC Roadside Service LLC","telephone":"+1-704-594-5353","url":"https://www.ncroadsideservice.com/","address":{"@type":"PostalAddress","addressLocality":"Belmont","addressRegion":"NC","postalCode":"28012","addressCountry":"US"}},
+  "areaServed":[{"@type":"City","name":"Charlotte","addressRegion":"NC"},{"@type":"City","name":"Belmont","addressRegion":"NC"},{"@type":"City","name":"Concord","addressRegion":"NC"},{"@type":"City","name":"Gastonia","addressRegion":"NC"},{"@type":"City","name":"Matthews","addressRegion":"NC"},{"@type":"City","name":"Mint Hill","addressRegion":"NC"},{"@type":"City","name":"Pineville","addressRegion":"NC"},{"@type":"City","name":"Huntersville","addressRegion":"NC"},{"@type":"City","name":"Harrisburg","addressRegion":"NC"},{"@type":"City","name":"Stallings","addressRegion":"NC"},{"@type":"City","name":"Weddington","addressRegion":"NC"},{"@type":"City","name":"Salisbury","addressRegion":"NC"}],
+  "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://www.ncroadsideservice.com/contact.html","servicePhone":"+1-704-594-5353","availableLanguage":"English"},
+  "hoursAvailable":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "offers":{"@type":"Offer","description":"Free quote before service. No hidden fees.","priceSpecification":{"@type":"PriceSpecification","priceCurrency":"USD","description":"Call for free quote"},"availability":"https://schema.org/InStock"}
 }
 </script>
 <script type="application/ld+json">
@@ -193,6 +199,20 @@
     {"@type":"Question","name":"Will winching damage my vehicle?","acceptedAnswer":{"@type":"Answer","text":"Not when it's done correctly. We use safe attachment points and controlled technique specifically to avoid damaging your bumper, frame or drivetrain."}},
     {"@type":"Question","name":"How soon can you reach me if I'm stuck off a rural road?","acceptedAnswer":{"@type":"Answer","text":"We cover rural stretches across the metro and into Union and Gaston counties. Call with your location and we'll give you an honest ETA."}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://www.ncroadsideservice.com/service-winch-out.html#webpage",
+  "url":"https://www.ncroadsideservice.com/service-winch-out.html",
+  "name":"Winch-Out & Vehicle Recovery | 24/7 Charlotte Metro — NC Roadside Service",
+  "isPartOf":{"@id":"https://www.ncroadsideservice.com/#website"},
+  "about":{"@id":"https://www.ncroadsideservice.com/#business"},
+  "description":"Stuck in a ditch, mud, or snow in the Charlotte area? Our recovery units use proper rigging techniques to pull light and medium-duty vehicles back onto solid ground without further damage.",
+  "inLanguage":"en-US",
+  "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ncroadsideservice.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.ncroadsideservice.com/services.html"},{"@type":"ListItem","position":3,"name":"Winch-Out & Vehicle Recovery","item":"https://www.ncroadsideservice.com/service-winch-out.html"}]}
 }
 </script>
 </body>
